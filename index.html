@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"/>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,29 +13,48 @@
   </head>
   <body>
     <header>
-        <div class="container">
-          <div class="header">
-            <div class="header__itemsLogo">
-              <div class="header__box">
-                <img class="header__img" src="./src/images/logo.svg" alt="logotip" />
-              </div>
-              <div class="header__boxSecond">
-                <div class="header__logoHeaderBox">
-                  <img class="header__img" src="./src/images/dodoPizza.svg" alt="dodoPizza" />
-                </div>
-                <div class="header__logoTagline">
-                  <img class="header__img" src="./src/images/tagline.svg" alt="dodoPizza" />
-                </div>
-              </div>
+      <div class="container">
+        <div class="header">
+          <div class="header__itemsLogo">
+            <div class="header__box">
+              <img class="header__img" src="./src/images/logo.svg" alt="logotip" />
             </div>
-            <div class="header__itemsCnt">
-              <p class="header__tel">8 800 302-00-60</p>
-              <p class="header__text">Звонок бесплатный</p>
+            <div class="header__boxSecond">
+              <div class="header__logoHeaderBox">
+                <img class="header__img" src="./src/images/dodoPizza.svg" alt="dodoPizza" />
+              </div>
+              <div class="header__logoTagline">
+                <img class="header__img" src="./src/images/tagline.svg" alt="dodoPizza" />
+              </div>
             </div>
           </div>
+          <div class="header__itemsCnt">
+            <p class="header__tel">8 800 302-00-60</p>
+            <p class="header__text">Звонок бесплатный</p>
+          </div>
         </div>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <section>
+        <div class="container">
+          <div class="menu">
+            <nav>
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Пицца</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Комбо</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Закуски</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Дессерты</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Другие товаты</a></li>
+              </ul>
+            </nav>
+            <div><a class="menu__cart" href="#">Корзина</a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

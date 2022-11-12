@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Do Do Pizza</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header">
-          <div class="header__itemsLogo">
-            <div class="header__box">
-              <img class="header__img" src="./src/images/logo.svg" alt="logotip" />
-            </div>
-            <div class="header__boxSecond">
-              <div class="header__logoHeaderBox">
-                <img class="header__img" src="./src/images/dodoPizza.svg" alt="dodoPizza" />
-              </div>
-              <div class="header__logoTagline">
-                <img class="header__img" src="./src/images/tagline.svg" alt="dodoPizza" />
-              </div>
-            </div>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Do Do Pizza</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="header__itemsLogo">
+          <div class="header__box">
+            <img class="header__img" src="./src/images/logo.svg" alt="logotip" />
           </div>
-          <div class="header__itemsCnt">
-            <p class="header__tel">8 800 302-00-60</p>
-            <p class="header__text">Звонок бесплатный</p>
+          <div class="header__boxSecond">
+            <div class="header__logoHeaderBox">
+              <img class="header__img" src="./src/images/dodoPizza.svg" alt="dodoPizza" />
+            </div>
+            <div class="header__logoTagline">
+              <img class="header__img" src="./src/images/tagline.svg" alt="dodoPizza" />
+            </div>
           </div>
         </div>
+        <div class="header__itemsCnt">
+          <p class="header__tel">8 800 302-00-60</p>
+          <p class="header__text">Звонок бесплатный</p>
+        </div>
       </div>
-    </header>
-    <main>
-      <section>
+    </div>
+  </header>
+  <main>
+    <section>
         <div class="container">
           <div class="menu">
             <nav>
@@ -54,15 +53,145 @@
           </div>
         </div>
       </section>
-      <section class="sliders">
+    <section class="sliders">
         <div class="container">
           <div>
             <img src="./src/images/slider/slide-central.webp" class="sliders__main" />
           </div>
-          
         </div>
       </section>
-    </main>
-    <footer></footer>
-  </body>
+    <section class="range">
+      <div class="container">
+        <div class="rangeNew">
+          <h1 class="rangeNew__headerline">Новое и популярное</h1>
+          <div class="rangeNew__box">
+            <div class="rangeNew__item">
+              <div class="rangeNew__wrap">
+                <img class="rangeNew__img" src="./src/images/items/popular/popular-1-2x.webp" alt="&#127829">
+              </div>
+              <div class="rangeNew__info">
+                <p class="rangeNew__title">Цезарь</p>
+                <p class="rangeNew__price">от 445 ₽</p>
+              </div>
+            </div>
+            <div class="rangeNew__item">
+              <div class="rangeNew__wrap">
+                <img class="rangeNew__img" src="./src/images/items/popular/popular-1-2x.webp" alt="&#127829">
+              </div>
+              <div class="rangeNew__info">
+                <p class="rangeNew__title">Цезарь</p>
+                <p class="rangeNew__price">от 445 ₽</p>
+              </div>
+            </div>
+            <div class="rangeNew__item">
+              <div class="rangeNew__wrap">
+                <img class="rangeNew__img" src="./src/images/items/popular/popular-1-2x.webp" alt="&#127829">
+              </div>
+              <div class="rangeNew__info">
+                <p class="rangeNew__title">Цезарь</p>
+                <p class="rangeNew__price">от 445 ₽</p>
+              </div>
+            </div>
+            <div class="rangeNew__item">
+              <div class="rangeNew__wrap">
+                <img class="rangeNew__img" src="./src/images/items/popular/popular-1-2x.webp" alt="&#127829">
+              </div>
+              <div class="rangeNew__info">
+                <p class="rangeNew__title">Цезарь</p>
+                <p class="rangeNew__price">от 445 ₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <h2 class="cards__headerline">Пицца</h2>
+          <div class="cards__items">
+             <div class="cards__item">
+              <div class="cards__wrapper">
+                <img class="cards__img" src="./src/images/items/pizza/pizza-1-2x.webp" alt="">
+              </div>
+              <div class="cards__description">
+                <h3 class="cards__title">Пицца из половинок</h3>
+                <p class="cards__text"> Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              </div>
+              <div class="cards__option">
+                <p class="cards__price">от 600 ₽</p>
+                <button class="cards__choice">Выбрать</button>
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__wrapper">
+                <img class="cards__img" src="./src/images/items/pizza/pizza-1-2x.webp" alt="">
+              </div>
+              <div class="cards__description">
+                <h3 class="cards__title">Пицца из половинок</h3>
+                <p class="cards__text"> Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              </div>
+              <div class="cards__option">
+                <p class="cards__price">от 600 ₽</p>
+                <button class="cards__choice">Выбрать</button>
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__wrapper">
+                <img class="cards__img" src="./src/images/items/pizza/pizza-1-2x.webp" alt="">
+              </div>
+              <div class="cards__description">
+                <h3 class="cards__title">Пицца из половинок</h3>
+                <p class="cards__text"> Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              </div>
+              <div class="cards__option">
+                <p class="cards__price">от 600 ₽</p>
+                <button class="cards__choice">Выбрать</button>
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__wrapper">
+                <img class="cards__img" src="./src/images/items/pizza/pizza-1-2x.webp" alt="">
+              </div>
+              <div class="cards__description">
+                <h3 class="cards__title">Пицца из половинок</h3>
+                <p class="cards__text"> Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              </div>
+              <div class="cards__option">
+                <p class="cards__price">от 600 ₽</p>
+                <button class="cards__choice">Выбрать</button>
+              </div>
+            </div>
+              <div class="cards__item">
+              <div class="cards__wrapper">
+                <img class="cards__img" src="./src/images/items/pizza/pizza-1-2x.webp" alt="">
+              </div>
+              <div class="cards__description">
+                <h3 class="cards__title">Пицца из половинок</h3>
+                <p class="cards__text"> Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              </div>
+              <div class="cards__option">
+                <p class="cards__price">от 600 ₽</p>
+                <button class="cards__choice">Выбрать</button>
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__wrapper">
+                <img class="cards__img" src="./src/images/items/pizza/pizza-1-2x.webp" alt="">
+              </div>
+              <div class="cards__description">
+                <h3 class="cards__title">Пицца из половинок</h3>
+                <p class="cards__text"> Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              </div>
+              <div class="cards__option">
+                <p class="cards__price">от 600 ₽</p>
+                <button class="cards__choice">Выбрать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+
 </html>

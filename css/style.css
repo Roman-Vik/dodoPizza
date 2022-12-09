@@ -273,18 +273,20 @@ img {
 .reference {
   background: #464C55;
 }
-
 .reference__wrapper {
   background: #464C55;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(130px, 153px));
-  grid-auto-flow: column;
-  grid-auto-columns: 275px;
+  display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-
+.reference__item {
+  width: 166px;
+}
+.reference__item-big {
+  width: 275px;
+}
 .reference__headline {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -292,9 +294,8 @@ img {
   color: #FFFFFF;
   margin: 0 0 10px 0;
 }
-
 .reference__link {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -303,14 +304,12 @@ img {
   opacity: 0.7;
   word-wrap: break-word;
 }
-
-.reference__img {
+.reference__img > img {
   width: 135px;
-  width: 40px;
+  height: 40px;
 }
-
 .reference__num {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -318,9 +317,8 @@ img {
   text-align: right;
   color: #FFFFFF;
 }
-
 .reference__tel {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -330,9 +328,8 @@ img {
   opacity: 0.5;
   margin: 6px 0 26px 0;
 }
-
 .reference__mail {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -341,14 +338,15 @@ img {
   color: #FFFFFF;
   opacity: 0.9;
 }
-
 .reference__lApp {
   grid-gap: 5px;
   display: grid;
   grid-auto-flow: column;
 }
-
 .reference__contacts {
+  align-items: end;
   display: grid;
   padding: 29px 0 0 0;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

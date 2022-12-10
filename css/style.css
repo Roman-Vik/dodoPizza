@@ -9,7 +9,6 @@
 .container {
   margin: 0 auto;
   max-width: 1060px;
-  border: dotted 2px red;
 }
 
 li {
@@ -218,7 +217,7 @@ img {
 }
 .rangeNew__headerline {
   margin-bottom: 30px;
-  font-family: "Nunito";
+  font-family: "Nunito", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -271,6 +270,7 @@ img {
 }
 
 .reference {
+  padding-top: 50px;
   background: #464C55;
 }
 .reference__wrapper {
@@ -283,7 +283,7 @@ img {
   width: 166px;
 }
 .reference__item-big {
-  width: 275px;
+  width: max-content;
 }
 .reference__headline {
   font-family: "Nunito", sans-serif;
@@ -309,6 +309,7 @@ img {
   height: 40px;
 }
 .reference__num {
+  margin-top: 29px;
   font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -339,14 +340,88 @@ img {
   opacity: 0.9;
 }
 .reference__lApp {
-  grid-gap: 5px;
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  gap: 5px;
 }
 .reference__contacts {
+  display: flex;
+  flex-direction: column;
   align-items: end;
-  display: grid;
-  padding: 29px 0 0 0;
+}
+
+.statistic {
+  background: rgb(70, 76, 85);
+}
+.statistic > .container {
+  display: flex;
+  gap: 156px;
+  padding: 93px 0 40px 0;
+  background: rgb(70, 76, 85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.statistic__item {
+  display: flex;
+  flex-direction: column;
+}
+.statistic__headline {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  color: #FFF;
+}
+.statistic__text {
+  width: 299px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.ftr {
+  background-color: hsl(216deg, 10%, 31%);
+  padding: 40px 0 46px 0;
+}
+.ftr > .container {
+  display: flex;
+}
+.ftr__copyright {
+  display: flex;
+  color: rgb(199, 200, 203);
+  align-items: center;
+  gap: 28px;
+}
+.ftr__cop {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.ftr__links {
+  display: flex;
+  gap: 20px;
+  margin: 0 90px 0 59px;
+  align-items: center;
+}
+.ftr__item {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.ftr__socialNet {
+  display: flex;
+  gap: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */
